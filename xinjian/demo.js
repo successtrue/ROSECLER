@@ -1,4 +1,4 @@
 new data()
 function search(){
-	console.log("搜索到")
+	console.log("搜索到说明")
 }
