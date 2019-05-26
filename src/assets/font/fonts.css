@@ -1,0 +1,52 @@
+@font-face
+{
+    font-family: 楷体;
+    src: url(simkai.ttf);
+}
+
+@font-face
+{
+    font-family: Quango;
+    src: url(Quango_0.otf);
+}
+
+@font-face
+{
+    font-family: Iskoola Pota;
+    src: url(iskpotab.ttf);
+	font-weight: bold;
+}
+
+@font-face
+{
+    font-family: Iskoola Pota;
+    src: url(iskpota.ttf);
+}
+
+@font-face
+{
+    font-family: Century Gothic;
+    src: url(GOTHICI.ttf);
+	font-style: italic;
+}
+
+@font-face
+{
+    font-family: Century Gothic;
+    src: url(GOTHICBI.ttf);
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face
+{
+    font-family: Century Gothic;
+    src: url(GOTHICB.ttf);
+	font-weight: bold;
+}
+
+@font-face
+{
+    font-family: Century Gothic;
+    src: url(GOTHIC.ttf);
+}

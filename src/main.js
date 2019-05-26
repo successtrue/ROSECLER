@@ -3,10 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import 'swiper/dist/css/swiper.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './assets/font/fonts.css'
 
 Vue.config.productionTip = false
-
+// Vue.component("Swiper",Swiper);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
