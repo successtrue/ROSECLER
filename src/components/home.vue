@@ -104,6 +104,7 @@
 </template>
 
 <script>
+	import Swiper from "swiper";
 export default {
 	name: 'Home',
 	mounted() {
@@ -119,6 +120,7 @@ export default {
 </script>
 
 <style scoped>
+	@import url("../assets/style/home/home.css");
 	/* *{ border: 1px solid red;} */
 	.main{ padding: 0;}
 	/* 头部 */
@@ -212,41 +214,4 @@ export default {
 	}
 	
 	.bottomBtn > div > button:hover{ background: rgba(0,0,0,0.1);cursor: pointer;}
-	/* 第二块 */
-	.two{ height: 1080px;display: flex; align-items: center;justify-content: center;}
-	
-	.two > .content{
-		height: 500px;
-		width: 650px;
-		/* border: 1px solid red; */
-	}
-	
-	.first{
-		font-size:38px;
-		font-family: 'Iskoola Pota';
-		font-weight:400;
-		line-height:43px;
-		color:rgba(0,0,0,1);
-		width:370px;
-		height:86px;
-		margin: 0 auto;
-		text-align: center;
-	}
-	
-	.second{ 
-		
-	}
-	
-	.fourth{ width:376px;height:68px;margin: 0 auto;margin-top: 52px;}
-	
-	.fourth > p{
-		height: 22px;
-		font-size:16px;
-		font-family:'Century Gothic';
-		font-weight:400;
-		line-height:24px;
-		color:rgba(0,0,0,1);
-		margin: 0;
-		text-align: center;
-	}
 </style>
